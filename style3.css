@@ -1,0 +1,84 @@
+.Überschrift {
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+  font-family: cursive;
+  font-size: x-large;
+  background-color: rgb(187, 184, 184);
+}
+.Infos {
+  display: flex;
+  justify-content: center;
+  font-family: cursive;
+  font-size: larger;
+  margin-right: 350px;
+  color: black;
+}
+
+.WeitereInfos4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 250px;
+    margin: 0 auto;
+    margin-left: 1550px;
+    margin-top: -410px;
+    gap: 10px;
+    border: 3px solid black;
+}
+
+.Wassind{
+    font-size: x-large;
+    font-family: cursive;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+}
+
+.Warum{
+    font-size: x-large;
+    font-family: cursive;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+}
+
+.Wie{
+    font-size: x-large;
+    font-family: cursive;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+}
+
+.Wassind:hover{
+    transition: .4s;
+    scale: 1.2;
+    text-decoration: underline;
+}
+
+.Warum:hover{
+    transition: .4s;
+    scale: 1.2;
+    text-decoration: underline;
+}
+
+.Wie:hover{
+    transition: .4s;
+    scale: 1.2;
+    text-decoration: underline;
+}
+
+.Home {
+  position: absolute;
+  font-family: cursive;
+  font-size: larger;
+  padding: 20px;
+  border: 3px solid black;
+  width: 200px;
+  margin-left: 800px;
+  margin-top: 190px;
+}
+
+.Home:hover{
+  transition: all .4s;
+  scale: 1.2;
+}

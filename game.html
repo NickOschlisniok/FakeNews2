@@ -1,0 +1,128 @@
+<link rel="stylesheet" href="game.css" />
+
+<header class="Uberschrift">
+  <h1>Kannst du FakeNews erkennen?</h1>
+</header>
+
+<div>
+  <img
+    class="HotDogs"
+    src="Bilder/75dc5e234c9d6db455ac8d2e136ee301.webp"
+    alt=""
+  />
+</div>
+
+<div class="HotDogsText">
+  <p>
+    Ein scharfer Nudeleintopf namens Budae-jjigae, für den Hotdogs oder Spam
+    verwendet werden, hat sich in Nordkorea seit seiner ersten Einfuhr aus
+    Südkorea im Jahr 2017 als Verkaufsschlager erwiesen. Aber stimmt es, dass
+    der nordkoreanische Machthaber Kim Jong Un das beliebte Grundnahrungsmittel
+    nun verboten hat?
+  </p>
+</div>
+
+<div class="catcinema">
+  <img src="Bilder/catcinema.webp" alt="" />
+</div>
+
+<div class="catcinematext">
+  <p>
+    Laut der Tierschutzorganisation Cats Protection besitzt jeder vierte
+    Haushalt eine Katze. Hat ihre Popularität dazu geführt, dass ein Kino in
+    Gloucestershire zum ersten Mal eine 75-minütige Sondersendung mit
+    Katzenvideos gezeigt hat?
+  </p>
+</div>
+
+<div class="loveisland">
+  <img src="Bilder/dc46311cfbec4a03ddaaa15a83551482.webp" alt="" />
+</div>
+
+<div class="loveislandtext">
+  <p>
+    Die beliebte ITV-Datingshow Love Island ist zurück im Fernsehen. Stimmt es,
+    dass neben bekannten Influencern auch ein Halbprofi-Fußballer den
+    Fußballplatz gegen die Villa getauscht hat?
+  </p>
+</div>
+
+<form onsubmit="prüfenHotDog(event)">
+  <input class="InputHotDog" id="InputHotDog" type="text" />
+  <button type="submit" class="PrüfenHotDog">Prüfen</button>
+  <p class="Trage">Trage hier deine Antwort ein:</p>
+  <h2 class="RichtigFalsch"></h2>
+</form>
+
+<script>
+  const Antworten = ["richtig", "Richtig", "Wahr", "wahr", "Echt", "echt"];
+
+  function prüfenHotDog(event) {
+    event.preventDefault();
+
+    const eingabe = document
+      .getElementById("InputHotDog")
+      .value.trim()
+      .toLowerCase();
+
+    const ausgabe = document.querySelector(".RichtigFalsch");
+
+    if (Antworten.includes(eingabe)) {
+      ausgabe.textContent = "Richtig!";
+    } else {
+      ausgabe.textContent = "Leider Falsch :(";
+    }
+  }
+</script>
+
+<form onsubmit="prüfenCat(event)">
+  <input id="InputCat" class="InputCat" type="text" />
+  <button type="submit" class="PrüfenCat">Prüfen</button>
+  <p class="TrageCat">Trage hier deine Antwort ein:</p>
+  <h2 class="RichtigFalschCat"></h2>
+</form>
+
+<script>
+  const AntwortenCat = ["richtig", "Richtig", "Wahr", "wahr", "Echt", "echt"];
+
+  function prüfenCat(event) {
+    event.preventDefault();
+    const eingabe = document
+      .getElementById("InputCat")
+      .value.trim()
+      .toLowerCase();
+    const ausgabe = document.querySelector(".RichtigFalschCat");
+
+    if (AntwortenCat.includes(eingabe)) {
+      ausgabe.textContent = "Richtig!";
+    } else {
+      ausgabe.textContent = "Leider Falsch:(";
+    }
+  }
+</script>
+
+<form onsubmit="prüfenLoveisland(event)">
+  <input id="inputLoveisland" class="inputLoveisland" type="text">
+  <button type="submit" class="prüfenLoveisland">Prüfen</button>
+  <p class="trageLoveisland">Trage hier deine Antwort ein:</p>
+  <h2 class="RichtigFalschLoveisland"></h2>
+</form>
+
+<script>
+  const AntwortenLoveisland = ["richtig", "Richtig", "Wahr", "wahr", "Echt", "echt"];
+
+  function prüfenLoveisland(event) {
+    event.preventDefault();
+    const eingabe = document
+      .getElementById("inputLoveisland")
+      .value.trim()
+      .toLowerCase();
+    const ausgabe = document.querySelector(".RichtigFalschLoveisland");
+
+    if (AntwortenLoveisland.includes(eingabe)) {
+      ausgabe.textContent = "Richtig!";
+    } else {
+      ausgabe.textContent = "Leider Falsch:(";
+    }
+  }
+</script>

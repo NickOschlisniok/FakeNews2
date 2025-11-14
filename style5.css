@@ -1,0 +1,85 @@
+.infos {
+  display: flex;
+  justify-content: center;
+  font-family: cursive;
+  font-size: larger;
+  margin-right: 350px;
+  color: black;
+}
+
+.Hier {
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+  font-family: cursive;
+  font-size: x-large;
+  background-color: rgb(187, 184, 184);
+}
+
+.Home {
+  position: absolute;
+  font-family: cursive;
+  font-size: larger;
+  padding: 20px;
+  border: 3px solid black;
+  width: 200px;
+  margin-left: 800px;
+  margin-top: 100px;
+}
+
+.Home:hover{
+  transition: all .4s;
+  scale: 1.2;
+}
+
+.WeitereInfos5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 250px;
+    margin: 0 auto;
+    margin-left: 1550px;
+    margin-top: -480px;
+    gap: 10px;
+    border: 3px solid black;
+}
+
+.Was{
+    font-size: x-large;
+    font-family: cursive;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+}
+
+.Warum{
+    font-size: x-large;
+    font-family: cursive;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+}
+
+.Gefährliche{
+    font-size: x-large;
+    font-family: cursive;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+}
+
+.Was:hover{
+    transition: .4s;
+    scale: 1.2;
+    text-decoration: underline;
+}
+
+.Warum:hover{
+    transition: .4s;
+    scale: 1.2;
+    text-decoration: underline;
+}
+
+.Gefährliche:hover{
+    transition: .4s;
+    scale: 1.2;
+    text-decoration: underline;
+}

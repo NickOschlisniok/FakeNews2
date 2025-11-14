@@ -1,0 +1,185 @@
+header {
+  height: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 5px 13px 2px lightgrey;
+}
+
+.Link1 {
+  display: flex;
+  justify-content: center;
+  font-family: cursive;
+  font-size: xx-large;
+  background-color: white;
+  border: none;
+}
+
+
+.Link2 {
+  display: flex;
+  justify-content: center;
+  font-family: cursive;
+  font-size: xx-large;
+  background-color: white;
+  border: none;
+}
+
+.Link3{
+  display: flex;
+  justify-content: center;
+  font-family: cursive;
+  font-size: xx-large;
+  background-color: white;
+  border: none;
+}
+
+.Link4{
+  display: flex;
+  justify-content: center;
+  font-family: cursive;
+  font-size: xx-large;
+  background-color: white;
+  border: none;
+}
+
+.Link1:hover {
+  transition: all .4s;
+  scale: 1.2;
+  text-decoration: underline;
+}
+
+.Link2:hover {
+  transition: all .4s;
+  scale: 1.2;
+  text-decoration: underline;
+}
+
+.Link3:hover{
+  transition: all .4s;
+  scale: 1.2;
+  text-decoration: underline;
+}
+
+.Link4:hover{
+  transition: all .4s;
+  scale: 1.2;
+  text-decoration: underline;
+}
+
+.Links{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px ;
+  margin-top: 100px;
+  border: 3px solid black;
+  height: 400px;
+  width: 500px;
+  margin: 0 auto;
+  transform: translateY(100px);
+}
+
+.FakeNewsBild{
+display: flex;
+margin-top: -400px;
+margin-left: -200px;
+
+}
+
+.ÜberUns{
+  display: flex;
+  margin-top: -650px;
+  height: 60px;
+  width: 180px;
+  justify-content: center;
+}
+
+.Philip{
+  display: flex;
+  justify-content: center;
+  font-size: large;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  font-size: x-large;
+  font-family: cursive;
+  background-color: white;
+}
+
+.Lennox{
+  display: flex;
+  justify-content: center;
+  font-size: large;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  font-size: x-large;
+  font-family: cursive;
+  background-color: white;
+}
+
+.Nick{
+  display: flex;
+  justify-content: center;
+  font-size: large;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  font-size: x-large;
+  font-family: cursive;
+  background-color: white;
+}
+
+.Philip:hover{
+  transition: .4s;
+  scale: 1.2;
+  text-decoration: underline;
+}
+
+.Lennox:hover{
+  transition: .4s;
+  scale: 1.2;
+  text-decoration: underline;
+}
+
+.Nick:hover{
+  transition: .4s;
+  scale: 1.2;
+  text-decoration: underline;
+}
+
+.containerüberuns{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1400px;
+  margin-top: -150px;
+}
+
+.Infostest{
+  display: flex;
+  justify-content: center;
+  font-size: xx-large;
+  margin-top: 200px;
+  font-family: cursive;
+}
+
+.Losgehts{
+  scale: 1.4;
+  position: absolute;
+  top: 915px;
+  left: 750px;
+  border: 2px solid black;
+  color: black;
+  background-color: white;
+}
+
+.Losgehts:hover{
+  transition: .4s;
+  scale: 1.8;
+  text-decoration: underline;
+}

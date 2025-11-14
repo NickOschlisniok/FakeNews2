@@ -1,0 +1,143 @@
+.Uberschrift {
+  display: flex;
+  justify-content: center;
+  font-size: xx-large;
+  font-family: cursive;
+  text-decoration: underline;
+}
+
+.HotDogs {
+  position: absolute;
+  right: 330px;
+}
+
+.HotDogsText{
+    display: flex;
+    width: 1200px;
+    margin-top: 700px;
+    margin-left: 320px;
+    font-size: x-large;
+    font-family: cursive;
+}
+
+.InputHotDog{
+    display: flex;
+    margin-left: 700px;
+    margin-top: 100px;
+    width: 400px;
+    scale: 1.2;
+    border: 3px solid black;
+}
+
+.PrüfenHotDog{
+  position: absolute;
+  left: 1170px;
+  top: 1165px;
+  scale: 1.4;
+}
+
+.Trage{
+  position: absolute;
+  top: 1140px;
+  left: 400px;
+  font-size: larger;
+  font-family: cursive;
+}
+
+.RichtigFalsch{
+  position: absolute;
+  left: 890px;
+  top: 1100px;
+}
+
+.catcinema{
+  position: absolute;
+  right: 330px;
+  top: 1500;
+}
+
+.catcinematext{
+  display: flex;
+  width: 1200px;
+  position: absolute;
+  right: 330px;
+  top: 2200px;
+  font-size: x-large;
+  font-family: cursive;
+}
+
+.InputCat{
+    display: flex;
+    margin-left: 700px;
+    margin-top: 1190px;
+    width: 400px;
+    scale: 1.2;
+    border: 3px solid black;
+}
+
+.PrüfenCat{
+  position: absolute;
+  left: 1170px;
+  top: 2378px;
+  scale: 1.4;
+}
+
+.TrageCat{
+  position: absolute;
+  top: 2353px;
+  left: 400px;
+  font-size: larger;
+  font-family: cursive;
+}
+
+.RichtigFalschCat{
+  position: absolute;
+  left: 890px;
+  top: 2320px;
+}
+
+.loveisland{
+  position: absolute;
+  right: 330px;
+  top: 2800px;
+}
+
+.loveislandtext{
+  display: flex;
+  width: 1200px;
+  position: absolute;
+  right: 330px;
+  top: 3500px;
+  font-size: x-large;
+  font-family: cursive;
+}
+
+.inputLoveisland{
+  display: flex;
+  margin-left: 700px;
+  margin-top: 1300px;
+  width: 400px;
+  scale: 1.2;
+  border: 3px solid black;  
+}
+
+.prüfenLoveisland{
+  position: absolute;
+  left: 1170px;
+  top: 3700px;
+  scale: 1.4;
+}
+
+.trageLoveisland{
+  position: absolute;
+  top: 3677px;
+  left: 400;
+  font-size: larger;
+  font-family: cursive;
+}
+
+.RichtigFalschLoveisland{
+  position: absolute;
+  top: 3647px;
+  left: 890px;
+}
